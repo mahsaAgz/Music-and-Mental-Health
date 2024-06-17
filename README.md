@@ -43,7 +43,8 @@ Finally, to investigate the relationship between knowing foreign languages and p
 ### Hypothesis 1: Impact of Music Habits and Background on Mental Health and the Perceived Effectiveness of Music Therapy
 **Hours per Day <> Mental Health and Music effect.** There is a weak positive correlation between the hours per day of listening to music and the severity of mental health conditions (OCD, depression, insomnia, and anxiety). This implies that as the number of listening hours increases, the severity of these conditions slightly increases.
 
-![Median Mental Health Scores by Daily Music Listening Duration](path_to_figure1.png)
+![Effect of listening to music while working on mental health](./Music_Mental_Health/images/figure1.JPG)
+
 
 The relationship between the number of hours participants listen to music per day and various mental health severity levels was examined using OLS regression models. The table below summarizes the result of the regression model.
 
@@ -56,7 +57,7 @@ The relationship between the number of hours participants listen to music per da
 
 The OLS regression analysis revealed significant relationships between daily music listening hours and the severity of OCD and insomnia. For OCD severity, the coefficient was 0.0322 (p = 0.0161) and for insomnia severity, the coefficient was 0.0339 (p = 0.0162) indicating that increased music listening hours are associated with higher severity levels of OCD and insomnia. No significant relationships were found for depression (p = 0.132) or anxiety (p = 0.424).
 
-![Histogram of Hours per Day by Perceived Music Effects](path_to_figure2.png)
+![Histogram of Hours per Day by Perceived Music Effects](./Music_Mental_Health/images/figure2.JPG)
 
 The data suggests that listening to music (hours per day) is generally perceived as either improving the experience or having no effect, with very few instances of worsening the experience. (Figure 2) As the duration increases, the frequency of perceived improvement remains high, while instances of no effect or worsening are relatively rare.
 
@@ -76,39 +77,39 @@ Both ANOVA (stat = 0.65, p = 0.52) and Kruskal-Wallis tests (stat = 4.67, p = 0.
 | Anxiety Severity  | Mann-Whitney U test  | 37715.0   | 0.7941   |
 Music_Mental_Health/images
 
-![Effect of listening to music while working on mental health](./Music_Mental_Health/images/figure1.JPG)
+![Effect of listening to music while working on mental health](./Music_Mental_Health/images/figure3.JPG)
 
 
 The relationship between listening to music while working and the perceived effects of music was examined using a chi-square test of independence. The analysis revealed a statistically significant relationship between these variables (Chi-square statistic = 14.05, p = 0.0009, degrees of freedom = 2).
 
-![The effect of music for those who listen while working](path_to_figure4.png)
+![The effect of music for those who listen while working](./Music_Mental_Health/images/figure4.JPG)
 
 The adjusted standardized residuals with p-values in the heatmap highlight that individuals who listen to music while working are more likely to report an improvement in their state. Conversely, those who do not listen to music while working are more likely to report no effect or an improvement, with very few reporting a worsening effect. This suggests that the context of working significantly influences the perceived effects of music.
 
 **Background (composer instrumental) <> Mental Health and Music effect.**
 
-![Levels of each mental health condition for each musical background](path_to_figure5.png)
+![Levels of each mental health condition for each musical background](./Music_Mental_Health/images/figure5.JPG)
 
 The relationship between musical background (composer, instrumental) and mental health variables (OCD, depression, insomnia, anxiety) was examined using ANOVA and Tukey's HSD tests. The ANOVA results showed no significant differences in the severity of OCD (F = 1.10, p = 0.35), depression (F = 1.69, p = 0.17), insomnia (F = 1.76, p = 0.15), or anxiety (F = 0.77, p = 0.51) across different musical backgrounds. Tukey's HSD tests confirmed that there were no significant pairwise differences between any of the groups for these mental health variables. The box plot illustrates the distribution of mental health scores for different musical backgrounds, further supporting the finding that musical background does not significantly influence the severity of these mental health conditions.
 
-![The relationship between the musical background and the effect of music on mental health](path_to_figure6.png)
+![The relationship between the musical background and the effect of music on mental health](./Music_Mental_Health/images/figure6.JPG)
 
 The chi-square test revealed a weak association between musical background and perceived music effects (Chi-square statistic = 11.41, p = 0.076). The heatmap of adjusted standardized residuals indicates that individuals with no musical background ("None") are significantly more likely to report "No effect" from music, driving the observed association.
 
 ### Hypothesis 2: Music Preferences and Mental Health
 **Favorite genre <> Mental Health and Music effect**
 
-![Severity count per favorite music genre](path_to_figure7.png)
+![Severity count per favorite music genre](./Music_Mental_Health/images/figure7.JPG)
 
 The bar charts in Figure 7 illustrate the severity count of various mental health conditions (anxiety, depression, insomnia, and OCD) across different favorite music genres. The data shows that Metal, Rock, and Pop genres have higher counts of severe levels for these conditions. Particularly, anxiety and depression show a higher proportion of severe cases among individuals who prefer these genres. The ANOVA results indicate a significant effect of genre on depression (F = 1.84, p = 0.027) and insomnia (F = 1.95, p = 0.017) but not on OCD (F = 0.44, p = 0.968) or anxiety (F = 1.10, p = 0.348). Tukey's HSD post hoc test found no significant pairwise differences between specific genres for depression and insomnia, suggesting that while there is a general effect of genre, individual differences between genres are not significant. Overall, the data suggests that Metal, Rock, and Pop are associated with higher severity of mental health conditions, particularly anxiety and depression.
 
-![Music effect count per favorite music genre](path_to_figure8.png)
+![Music effect count per favorite music genre](./Music_Mental_Health/images/figure8.JPG)
 
 The bar charts in Figure 8 illustrate the perceived effects of music (improve, worsen, no effect) across different favourite music genres for various mental health conditions (anxiety, depression, insomnia, OCD). The Chi-square test results show no significant association between favourite genre and perceived music effects (Chi2 statistic = 37.35, p = 0.167, degrees of freedom = 30). This suggests that the variations observed in the bar charts do not indicate a statistically significant pattern. The expected frequencies for each genre and effect category further support that the perceived effects of music are not significantly influenced by the favorite music genre.
 
 **Frequency of listening to each genre <> Mental Health and Music effect**
 
-![Correlated music genre with mental health disorders](path_to_figure9.png)
+![Correlated music genre with mental health disorders](./Music_Mental_Health/images/figure9.JPG)
 
 The heatmap in Figure 9 shows the correlation between the music genre and mental health variables such as OCD, Depression, Insomnia, and Anxiety. Frequent listening to EDM is associated with higher levels of OCD, depression, and insomnia. Specifically, the correlation with OCD severity is 0.1 (p-value of 0.013), with depression severity is 0.08 (p-value of 0.046), and with insomnia severity is 0.104 (p-value of 0.01). This suggests that individuals who listen to EDM more often tend to report more severe symptoms of these mental health conditions. The frequency of listening to Metal music shows a strong positive correlation with both depression and insomnia severity. The correlation with depression severity is 0.141 (p-value of 0.000) and insomnia severity is 0.13 (p-value of 0.001). This indicates that frequent Metal listeners tend to experience more severe symptoms of depression and insomnia. Rock music is correlated with increased severity of depression and insomnia. The correlation with depression severity is 0.179 (p-value of 0.000) and insomnia severity is 0.08 (p-value of 0.046). This implies that more frequent listening to Rock music is associated with higher levels of these conditions. There is a positive correlation between listening to Lofi's music and insomnia severity. The correlation is 0.1 (p-value of 0.013), suggesting that frequent Lofi listeners are more likely to experience more severe insomnia symptoms. Frequent listening to Video Game Music is associated with higher levels of insomnia and anxiety. The correlation with insomnia severity is 0.095 (p-value of 0.018) and with anxiety severity is 0.106 (p-value of 0.009). This suggests that individuals who listen to Video Game Music more often tend to report more severe symptoms of insomnia and anxiety.
 
@@ -118,7 +119,7 @@ The chi-square test results indicate no significant association between the freq
 
 **Exploration <> Mental Health and Music Effect**
 
-![The distribution of relationship between the exploratory behavior and the mental health disorders](path_to_figure10.png)
+![The distribution of relationship between the exploratory behavior and the mental health disorders](./Music_Mental_Health/images/figure10.JPG)
 
 The relationship between exploratory behaviour and mental health variables (OCD, depression, insomnia, anxiety) was analyzed using several statistical tests. The normality tests for OCD (W = 0.848, p < 0.001), depression (W = 0.946, p < 0.001), insomnia (W = 0.915, p < 0.001), and anxiety (W = 0.946, p < 0.001) all indicated non-normal distributions. Homogeneity of variances tests for these variables showed no significant differences in variances.
 
@@ -126,13 +127,13 @@ Cohen's d values were small for OCD (0.08), depression (0.13), insomnia (0.11), 
 
 Mann-Whitney U tests also showed no significant differences: OCD (U = 38836.00, p = 0.3948), depression (U = 40035.00, p = 0.1463), insomnia (U = 40041.00, p = 0.1445), and anxiety (U = 37715.00, p = 0.7941). Rank-biserial effect sizes were small for OCD (-0.04), depression (-0.08), insomnia (-0.08), and anxiety (-0.01). Overall, these results suggest no significant relationship between exploratory behaviour and the severity of mental health conditions.
 
-![The relationship of exploratory behavior and the perceived effects of music](path_to_figure11.png)
+![The relationship of exploratory behavior and the perceived effects of music](./Music_Mental_Health/images/figure11.JPG)
 
 The relationship between exploratory behavior and the perceived effects of music was analyzed using a chi-square test. The chi-square statistic was 13.81 (p = 0.001), indicating a significant association between exploratory behavior and perceived music effects. The degrees of freedom for this test were 2.
 
 **Listening to Foreign songs <> Mental Health and Music effect**
 
-![The distribution of the relationship between knowledge of foreign languages and mental health disorders](path_to_figure12.png)
+![The distribution of the relationship between knowledge of foreign languages and mental health disorders](./Music_Mental_Health/images/figure12.JPG)
 
 The relationship between knowledge of foreign languages and mental health variables (OCD, depression, insomnia, anxiety) was examined. Normality tests indicated non-normal distributions. Homogeneity of variances tests showed no significant differences for any mental health conditions.
 
@@ -140,7 +141,7 @@ The Kruskal-Wallis tests revealed significant differences for depression (H = 4.
 
 Cohen's d values suggested minimal effect sizes: OCD (-0.08), depression (0.17), insomnia (0.09), and anxiety (0.16). These results indicate a weak but significant relationship between knowledge of foreign languages and the severity of depression and anxiety, with no significant relationship between OCD and insomnia.
 
-![The relationship between the knowledge of foreign languages and perceived music effects](path_to_figure13.png)
+![The relationship between the knowledge of foreign languages and perceived music effects](./Music_Mental_Health/images/figure13.JPG)
 
 The relationship between knowledge of foreign languages and perceived effects of music was examined using a chi-square test. The results showed no significant association, with a chi-square statistic of 0.169 (p = 0.919) and 2 degrees of freedom. Expected frequencies for those who know foreign languages were 203.06 (Improve), 59.39 (No effect), and 6.55 (Worsen), while for those who do not know foreign languages, the expected frequencies were 261.94 (Improve), 76.61 (No effect), and 8.45 (Worsen). These findings suggest that knowledge of foreign languages does not significantly influence how individuals perceive the effects of music.
 
