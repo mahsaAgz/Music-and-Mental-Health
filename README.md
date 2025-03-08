@@ -31,11 +31,11 @@ This project investigates the correlation between **music listening habits, musi
 - **Utilizes ANOVA, chi-square tests, regression analysis, and correlation studies.**
 - **Dataset contains 736 survey responses with detailed musical preferences and self-reported mental health conditions.**
 
-### 🔗 **Project Files**
+### **Project Files**
 **[Detailed README for this project](./Music_Mental_Health/README.md)**  
 **Final Report:** [View PDF](./Music_Mental_Health/final_report.pdf)  
 
-### 📈 **Key Findings**
+### **Key Findings**
 - **Increased music listening hours were associated with higher OCD and insomnia severity.**
 - **Listening to music while working was significantly related to higher OCD scores.**
 - **Genres like Metal, Rock, and EDM were correlated with higher levels of depression and anxiety.**
