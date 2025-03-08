@@ -45,8 +45,8 @@ The dataset consists of **736 survey responses** collected via Kaggle. Participa
 We visualized the relationships using heatmaps, bar charts, and histograms:
 
 <p align="center">
-    <img width="45%" alt="figure1" src="./Music_Mental_Health/images/figure1.JPG" />
-    <img width="45%" alt="figure2" src="./Music_Mental_Health/images/figure2.JPG" />
+    <img width="45%" alt="figure1" src="./images/figure1.JPG" />
+    <img width="45%" alt="figure2" src="./images/figure2.JPG" />
 </p>
 
 ## Experiment
@@ -75,8 +75,8 @@ We use the **Music & Mental Health Survey Dataset**, which contains:
 - **Listening to foreign language music showed minor effects on depression and anxiety.**
 
 <p align="center">
-    <img width="45%" alt="figure3" src="./Music_Mental_Health/images/figure3.JPG" />
-    <img width="45%" alt="figure4" src="./Music_Mental_Health/images/figure4.JPG" />
+    <img width="45%" alt="figure3" src="./images/figure3.JPG" />
+    <img width="45%" alt="figure4" src="./images/figure4.JPG" />
 </p>
 
 ## Conclusion
