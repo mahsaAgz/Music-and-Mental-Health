@@ -95,9 +95,3 @@ Email: [mahsa_agz@kaist.ac.kr](mailto:mahsa_agz@kaist.ac.kr)
 Department of Industrial & Systems Engineering, KAIST  
 Email: [alexandre.goujon@kaist.ac.kr](mailto:alexandre.goujon@kaist.ac.kr)  
 
-**Absur Khan Siam**  
-Department of Physics, KAIST  
-Email: [siam@kaist.ac.kr](mailto:siam@kaist.ac.kr)  
-
-## License
-This project is licensed under the **MIT License**.
